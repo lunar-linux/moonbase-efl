@@ -1,0 +1,14 @@
+depends eet
+depends eina
+optional_depends pixman "" "--disable-pixman" ""
+optional_depends valgrind "" "--disable-valgrind" ""
+optional_depends edb "" "" ""
+optional_depends jpeg "" "--disable-image-loader-jpeg" ""
+optional_depends giflib "" "--disable-image-loader-gif" ""
+optional_depends tiff "" "--disable-image-loader-tiff" ""
+optional_depends libpng "" "--disable-image-loader-png" ""
+optional_depends librsvg "" "--disable-image-loader-svg" ""
+optional_depends harfbuzz "" "--disable-harfbuzz" ""
+optional_depends freetype2 "" "--disable-freetype" ""
+optional_depends fribidi "" "--disable-fribidi" ""
+optional_depends fontconfig "" "--disable-fontconfig" ""

@@ -1,0 +1,7 @@
+
+# circular bootstrap hack
+if ! in_depends eina ecore ; then
+	add_depends eina ecore on required "" ""
+	message "Now re-lin eina once more"
+fi
+

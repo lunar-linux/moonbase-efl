@@ -1,0 +1,4 @@
+depends eet
+depends eina
+depends evas
+optional_depends SDL "" "--disable-sdl" "For SDL support"

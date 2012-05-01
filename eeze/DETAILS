@@ -1,0 +1,16 @@
+          MODULE=eeze
+         VERSION=1.2.0-alpha
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.org/releases/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_VFY=sha1:deb7544c8c088e5c21d24ea3e4e4406424f3fe54
+        WEB_SITE="http://www.enlightenment.org/"
+         ENTERED=20120430
+         UPDATED=20120430
+           SHORT="Hotplug devices and drives through udev"
+cat <<EOF
+Eeze is a library for manipulating devices through udev with a simple
+and fast api. It interfaces directly with libudev, avoiding such
+middleman daemons as udisks/upower or hal, to immediately gather
+device information the instant it becomes known to the system.
+EOF

@@ -1,0 +1,7 @@
+depends ecore
+depends eet
+depends eina
+depends evas
+depends embryo
+
+optional_depends lua "" "--disable-lua" "for LUA support"

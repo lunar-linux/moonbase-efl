@@ -1,0 +1,4 @@
+depends eina
+depends zlib
+depends jpeg
+optional_depends gnutls "" "--disable-gnutls" "SSL support"

@@ -1,0 +1,4 @@
+depends dbus
+depends ecore
+depends eina
+depends evas

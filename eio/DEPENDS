@@ -1,0 +1,3 @@
+depends ecore
+depends eet
+depends eina

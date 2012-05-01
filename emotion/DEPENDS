@@ -1,0 +1,9 @@
+depends ecore
+depends edje
+depends eet
+depends eeze
+depends eio
+depends evas
+
+optional_depends "gstreamer-10" "--enable-gstreamer" "--disable-gstreamer"  \
+                 "for gstreamer based video/audio decoding support"

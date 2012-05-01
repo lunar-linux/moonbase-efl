@@ -1,0 +1,14 @@
+          MODULE=efreet
+         VERSION=1.2.0-alpha
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.org/releases/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_VFY=sha1:4fa0d78af82860f32f1077787c499e8e6d14368b
+        WEB_SITE="http://www.enlightenment.org/"
+         ENTERED=20120430
+         UPDATED=20120430
+           SHORT="DBUS bindings for EFL"
+cat <<EOF
+Basic convenience wrappers around dbus to ease integrating dbus with
+EFL based applications.
+EOF

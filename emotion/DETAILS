@@ -1,0 +1,17 @@
+          MODULE=emotion
+         VERSION=1.0.0-alpha
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.org/releases/
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+      SOURCE_VFY=sha1:e68bb57804d179576a3b10e35bda669973add0ce
+        WEB_SITE="http://www.enlightenment.org/"
+         ENTERED=20120430
+         UPDATED=20120430
+           SHORT="Multimedia support for EFL"
+cat <<EOF
+Emotion is an Evas smart-object library providing video/audio
+capabilites.  Emotion leverages xine-lib and/or GStremer; integrating
+seemlessly with the rest of the EFL.  Because it is based on xine-lib
+and/or GStreamer, any formats that they support (Theora, DiVX, MP3,
+etc) are automatically available using Emotion.
+EOF

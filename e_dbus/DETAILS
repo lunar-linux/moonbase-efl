@@ -1,5 +1,5 @@
           MODULE=e_dbus
-         VERSION=1.2.0-alpha
+         VERSION=1.2.0
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION

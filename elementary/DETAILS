@@ -3,7 +3,7 @@
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:87c4e43612c2ad90a03625c562e6438ba4c96095
+      SOURCE_VFY=sha1:41b8cbf56f511e2849180d3c96525419e36c0277
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
          UPDATED=20120430

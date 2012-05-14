@@ -10,7 +10,7 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
            SHORT="Multimedia support for EFL"
 cat <<EOF
 Emotion is an Evas smart-object library providing video/audio
-capabilites.  Emotion leverages xine-lib and/or GStremer; integrating
+capabilites.  Emotion leverages xine-lib and/or GStreamer; integrating
 seemlessly with the rest of the EFL.  Because it is based on xine-lib
 and/or GStreamer, any formats that they support (Theora, DiVX, MP3,
 etc) are automatically available using Emotion.

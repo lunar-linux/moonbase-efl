@@ -2,8 +2,7 @@ depends eet
 depends eina
 optional_depends pixman "" "--disable-pixman" ""
 optional_depends valgrind "" "--disable-valgrind" ""
-optional_depends edb "" "" ""
-optional_depends jpeg "" "--disable-image-loader-jpeg" ""
+optional_depends %JPEG "" "--disable-image-loader-jpeg" ""
 optional_depends giflib "" "--disable-image-loader-gif" ""
 optional_depends tiff "" "--disable-image-loader-tiff" ""
 optional_depends libpng "" "--disable-image-loader-png" ""

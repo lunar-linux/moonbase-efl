@@ -7,9 +7,10 @@ SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
          UPDATED=20120430
-           SHORT="an implementation of freedesktop.org specifications"
+           SHORT="efficient filesystem input/output for EFL"
 cat <<EOF
-An implementation of several specifications from freedesktop.org
-intended for use in Enlightenment DR17 (e17) and other applications
-using the Enlightenment Foundation Libraries (EFL).
+Eio integrates with EFL (Ecore, Eina) to provide efficient filesystem
+Input/Output? (I/O). It use the best techniques to achieve such purpose,
+like using at-variants, splice, properly handling errors and doing it
+in an asynchronous fashion by means of worker threads.
 EOF

@@ -1,4 +1,4 @@
 depends ecore
 depends eet
 depends eina
-depends udev
+depends %UDEV

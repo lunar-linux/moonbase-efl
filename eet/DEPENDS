@@ -1,4 +1,4 @@
 depends eina
 depends zlib
-depends jpeg
+depends %JPEG
 optional_depends gnutls "" "--disable-gnutls" "SSL support"

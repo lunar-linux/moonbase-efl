@@ -1,0 +1,17 @@
+. $MOONBASE/efl/efl-svn.sh
+
+          MODULE=terminology
+         VERSION=$E_REV
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=$E_URL/$MODULE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+        WEB_SITE="http://www.enlightenment.org/"
+         ENTERED=20120430
+         UPDATED=20120724
+           SHORT="e terminal.... well sort of"
+cat <<EOF
+This is an EFL terminal emulator with some extra bells and whistles.
+It's brand new and was only started near the begining of June 2012, so
+expecting it to do everything a mature terminal emulator does is a bit
+premature, but considering it's young age, it does a lot.
+EOF

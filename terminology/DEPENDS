@@ -1,0 +1,4 @@
+depends evas
+depends ecore
+depends emotion
+depends elementary

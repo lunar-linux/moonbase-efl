@@ -1,0 +1,2 @@
+depends ethumb
+depends Cython

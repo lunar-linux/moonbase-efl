@@ -1,0 +1,13 @@
+. $MOONBASE/efl/efl-svn.sh
+
+          MODULE=python-ethumb
+         VERSION=$E_REV
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=$E_URL/BINDINGS/python/$MODULE
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
+        WEB_SITE="http://www.enlightenment.org/"
+         ENTERED=20120430
+         UPDATED=20120724
+           SHORT="ethumb python bindings"
+cat <<EOF
+EOF

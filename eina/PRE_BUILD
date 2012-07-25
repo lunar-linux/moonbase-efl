@@ -1,0 +1,4 @@
+default_pre_build
+cd $SOURCE_DIRECTORY
+svn up -r $E_REV
+sh autogen.sh

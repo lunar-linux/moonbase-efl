@@ -1,5 +1,3 @@
-. $MOONBASE/efl/efl-svn.sh
-
           MODULE=emotion
          VERSION=$E_REV
           SOURCE=${MODULE}-${VERSION}.tar.bz2
@@ -7,7 +5,7 @@
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20120724
+         UPDATED=20120430
            SHORT="Multimedia support for EFL"
 cat <<EOF
 Emotion is an Evas smart-object library providing video/audio

@@ -1,5 +1,3 @@
-. $MOONBASE/efl/efl-svn.sh
-
           MODULE=eio
          VERSION=$E_REV
           SOURCE=${MODULE}-${VERSION}.tar.bz2
@@ -7,7 +5,7 @@
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20120724
+         UPDATED=20120430
            SHORT="efficient filesystem input/output for EFL"
 cat <<EOF
 Eio integrates with EFL (Ecore, Eina) to provide efficient filesystem

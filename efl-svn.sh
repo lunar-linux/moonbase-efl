@@ -4,7 +4,7 @@
 # for the SVN versions of EFL packages.
 #
 
-E_REV=74368
+E_REV=75861
 E_URL=svn+http://svn.enlightenment.org/svn/e/trunk
 
 # Don't try to redownload SVN over and over again as we build against

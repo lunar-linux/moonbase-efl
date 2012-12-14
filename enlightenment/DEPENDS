@@ -7,4 +7,6 @@ depends e_dbus
 depends edje
 depends eeze
 
+depends xcb-util-keysyms
+
 optional_depends alsa-lib "" "--disable-alsa" "For ALSA support"

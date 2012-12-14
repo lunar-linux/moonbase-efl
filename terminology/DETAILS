@@ -1,0 +1,12 @@
+          MODULE=terminology
+         VERSION=0.1.0
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.org/releases/
+      SOURCE_VFY=sha1:511280b218a5b874fa6d34989b5a9fac306f47be
+        WEB_SITE="http://enlightenment.org"
+         ENTERED=20121213
+         UPDATED=20121213
+           SHORT="EFL Terminal"
+cat <<EOF
+An EFL based terminal replacement for xterm.
+EOF

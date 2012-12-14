@@ -1,12 +1,12 @@
           MODULE=evas
-         VERSION=1.2.0
+         VERSION=1.7.3
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:efa9ab7785c4d03bf7bd55fcb083498685021dfe
+      SOURCE_VFY=sha1:5d5854128d8656ee1e75f09f047bbc3b01973046
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20120430
+         UPDATED=20121213
            SHORT="Graphics toolkit for EFL applications."
 cat <<EOF
 Evas is a clean, hardware-accelerated display canvas API for several

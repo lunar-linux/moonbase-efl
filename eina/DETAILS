@@ -1,12 +1,12 @@
           MODULE=eina
-         VERSION=1.2.0
+         VERSION=1.7.3
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:33213dda60dcbef80e7a818d94eb3dfc7ec8e520
+      SOURCE_VFY=sha1:0adcd0d3480c17df6ceb9b629faec9863b47ba9f
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20120430
+         UPDATED=20121213
            SHORT="data structure utilities for EFL"
 cat <<EOF
 Eina is a library providing data structure utilities for EFL that

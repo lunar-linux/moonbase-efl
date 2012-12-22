@@ -1,12 +1,12 @@
           MODULE=enlightenment
-         VERSION=0.17.0-gamma
+         VERSION=0.17.0
           SOURCE=${MODULE}-${VERSION}.tar.gz
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:365672de47b6db371af9eff45f7758a7c52c9280
+      SOURCE_VFY=sha1:be8228200c1a7caeba914ae77927bda62e3a1776
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20121213
+         UPDATED=20121220
            SHORT="The E17 Window Manager"
 cat <<EOF
 This is the Window Manager and all the basic E desktop environment.

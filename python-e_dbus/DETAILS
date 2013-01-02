@@ -1,0 +1,12 @@
+          MODULE=python-e_dbus
+         VERSION=1.7.0
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.fr/releases/BINDINGS/python/
+      SOURCE_VFY=sha1:b47c5ef7f5391d75d508839d38b102d8225f6b6b
+        WEB_SITE="http://enlightenment.org"
+         ENTERED=20130102
+         UPDATED=20130102
+           SHORT="Python bindings for EFL e_dbus"
+cat <<EOF
+Python bindings for EFL e_dbus
+EOF

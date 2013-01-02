@@ -1,0 +1,12 @@
+          MODULE=python-elementary
+         VERSION=1.7.0
+          SOURCE=${MODULE}-${VERSION}.tar.bz2
+      SOURCE_URL=http://download.enlightenment.fr/releases/BINDINGS/python/
+      SOURCE_VFY=sha1:b11e249fb7496aa5a680de1bfe9bc311850de888
+        WEB_SITE="http://enlightenment.org"
+         ENTERED=20130102
+         UPDATED=20130102
+           SHORT="Python bindings for EFL elementary"
+cat <<EOF
+Python bindings for EFL elementary
+EOF

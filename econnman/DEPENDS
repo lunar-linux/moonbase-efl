@@ -1,0 +1,3 @@
+depends Python
+depends python-elementary
+depends python-e_dbus

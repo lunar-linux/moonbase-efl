@@ -1,0 +1,12 @@
+          MODULE=econnman
+         VERSION=1
+          SOURCE=${MODULE}-${VERSION}.tar.gz
+      SOURCE_URL=http://packages.profusion.mobi/${MODULE}/
+      SOURCE_VFY=sha1:333f6f8633af4f01d1ddb07ceb5635299d243413
+        WEB_SITE="http://enlightenment.org"
+         ENTERED=20130102
+         UPDATED=20130102
+           SHORT="EFL connman frontend"
+cat <<EOF
+Manage your internet connections using ConnMan and EFL.
+EOF

@@ -1,12 +1,12 @@
           MODULE=ethumb
-         VERSION=1.7.4
+         VERSION=1.7.5
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:e7925ee9fc7abaa6e555d5888b5c416df3c0b661
+      SOURCE_VFY=sha1:1ce848a05482922369578f649fce2fd6ede9c7ae
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20121220
+         UPDATED=20130106
            SHORT="Thumbnailing service for EFL"
 cat <<EOF
 ethumb, a thumbnail generator for E.

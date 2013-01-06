@@ -1,12 +1,12 @@
           MODULE=edje
-         VERSION=1.7.4
+         VERSION=1.7.5
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:460d9e90cf6c383d2d53c90d10c048f2bc451665
+      SOURCE_VFY=sha1:ce2fff866e7e421b952ed0d2f31566e0305d2f11
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20121220
+         UPDATED=20130106
            SHORT="Animation library for EFL"
 cat <<EOF
 Edje is a complex graphical design and layout library.  It is a sequel

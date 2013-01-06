@@ -1,15 +1,16 @@
           MODULE=eet
-         VERSION=1.7.4
+         VERSION=1.7.5
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:dd7a0bbdbce7d255b3b7d31a6e8c401551363728
+      SOURCE_VFY=sha1:ec40ad6e11cdeccea3397548e73809e511941d1e
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20121220
+         UPDATED=20130106
            SHORT="eet"
 cat <<EOF
 EET is designed to write an arbitary set of chunks of data to a file
 and optionally compress each chunk, allowing for fast random-access
 reading of the file later on.
 EOF
+  

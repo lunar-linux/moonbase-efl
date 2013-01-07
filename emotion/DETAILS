@@ -1,12 +1,12 @@
           MODULE=emotion
-         VERSION=1.7.4
+         VERSION=1.7.5
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:5b9b8cd524c7f058af401ffa997da26d087b24ee
+      SOURCE_VFY=sha1:99739e7865e5fc217162f1ae70770af62af09c6b
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20121220
+         UPDATED=20130106
            SHORT="Multimedia support for EFL"
 cat <<EOF
 Emotion is an Evas smart-object library providing video/audio

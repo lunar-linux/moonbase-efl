@@ -1,0 +1,5 @@
+depends ecore
+depends efreet
+depends elementary
+depends emotion
+depends ethumb

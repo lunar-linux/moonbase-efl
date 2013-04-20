@@ -1,12 +1,12 @@
           MODULE=embryo
-         VERSION=1.7.5
+         VERSION=1.7.6
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:ad25a7a1c6a4a07fed8297262bebb628c3ea2331
+      SOURCE_VFY=sha1:1e8725a3ba289025a69688b1dc79a0d7f7e834fa
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130106
+         UPDATED=20130420
            SHORT="scripting langage based on Small"
 cat <<EOF
 Embryo implements a C like scripting language used in various parts

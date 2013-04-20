@@ -1,12 +1,12 @@
           MODULE=eio
-         VERSION=1.7.5
+         VERSION=1.7.6.1
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:8b2e18b6aaaf0e1ad75c9b8bdb797d9028d1cd40
+      SOURCE_VFY=sha1:cd14dcd4c87048b19548466e787ae0fd00701708
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130106
+         UPDATED=20130420
            SHORT="efficient filesystem input/output for EFL"
 cat <<EOF
 Eio integrates with EFL (Ecore, Eina) to provide efficient filesystem

@@ -1,12 +1,12 @@
           MODULE=e_dbus
-         VERSION=1.7.5
+         VERSION=1.7.6
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:d859ecd54269c54e335d836f745081aaeb40fecf
+      SOURCE_VFY=sha1:8bce20dcd887fce533968c35a0cf74146ea7cabf
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130106
+         UPDATED=20130420
            SHORT="DBUS bindings for EFL applications."
 cat <<EOF
 Basic convenience wrappers around dbus to ease integrating dbus with

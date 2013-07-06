@@ -1,12 +1,12 @@
           MODULE=enlightenment
-         VERSION=0.17.2.1
+         VERSION=0.17.3
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:feebc50a2e6fe2ce7c9a9c82060d10d376d42845
+      SOURCE_VFY=sha1:a0bda02d3dcd0105ffbb33de6411bbc910ba4585
         WEB_SITE=http://www.enlightenment.org
          ENTERED=20120430
-         UPDATED=20130420
+         UPDATED=20130706
            SHORT="The E17 Window Manager"
 
 cat <<EOF

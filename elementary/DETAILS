@@ -1,12 +1,12 @@
           MODULE=elementary
-         VERSION=1.7.6
+         VERSION=1.7.7
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:612fe92563589259627660a1c95673fce51ea944
+      SOURCE_VFY=sha1:cff6de3f496139cd806575f5c36a05e2b00f64fc
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130420
+         UPDATED=20130706
            SHORT="Widget set for EFL applications"
 cat <<EOF
 Elementary is a widget set. It is a new-style of widget set much more

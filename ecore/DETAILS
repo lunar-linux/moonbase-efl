@@ -1,12 +1,12 @@
           MODULE=ecore
-         VERSION=1.7.6
+         VERSION=1.7.7
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:34b9cf9c207ac81f4bdfc3daba226451b4349fca
+      SOURCE_VFY=sha1:a5baeedf9dcec78b4bf0023d2d6da3fe61ab859b
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130420
+         UPDATED=20130706
            SHORT="Core EFL library."
 cat <<EOF
 Ecore is the event/X abstraction layer that makes doing selections,

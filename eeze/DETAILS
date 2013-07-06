@@ -1,12 +1,12 @@
           MODULE=eeze
-         VERSION=1.7.6
+         VERSION=1.7.7
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:de7e33283dc50381367e0c60e0654c36515d825d
+      SOURCE_VFY=sha1:8e1684bb77afa28a61c524c315ecfcbd69af7d54
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130420
+         UPDATED=20130706
            SHORT="Hotplug devices and drives through udev"
 cat <<EOF
 Eeze is a library for manipulating devices through udev with a simple

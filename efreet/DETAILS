@@ -1,12 +1,12 @@
           MODULE=efreet
-         VERSION=1.7.6
+         VERSION=1.7.7
           SOURCE=${MODULE}-${VERSION}.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:f9a93ba528992681b293f24b29c8af3ceca8187e
+      SOURCE_VFY=sha1:af31d42b24e83d41a8f2481fc4d501bd52f85bec
         WEB_SITE="http://www.enlightenment.org/"
          ENTERED=20120430
-         UPDATED=20130420
+         UPDATED=20130706
            SHORT="Handling for freedesktop.org standards in EFL"
 cat <<EOF
 An implementation of several specifications from freedesktop.org intended for

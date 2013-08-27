@@ -1,8 +1,5 @@
 depends ecore
-depends eina
-depends eet
 depends efreet
-depends evas
 depends e_dbus
 depends edje
 depends eeze

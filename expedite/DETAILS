@@ -1,13 +1,14 @@
           MODULE=expedite
-         VERSION=1.7.7
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
+         VERSION=1.7.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:1b5b6a30f102bbc6a542fab60e3b56cdbca3e2a1
-        WEB_SITE="http://www.enlightenment.org/"
+      SOURCE_VFY=sha1:545316f55b2ce3a9a920560a6580ca7a406a4eb1
+        WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130706
+         UPDATED=20130827
            SHORT="A benchmark/Testing tool for elementary and evas"
+
 cat <<EOF
 Expedite tests performance and quality of the elementary and evas
 libraries.

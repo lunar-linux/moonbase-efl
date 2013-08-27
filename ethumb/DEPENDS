@@ -1,10 +1,5 @@
-depends ecore
 depends e_dbus
-depends edje
-depends eet
-depends eina
 depends emotion
-depends evas
 
 #optional_depends epdf "" "--disable-epdf" "For PDF support"
 optional_depends libexif "" "--disable-libexif" "For EXIF support"

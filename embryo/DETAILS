@@ -1,17 +1,18 @@
           MODULE=embryo
-         VERSION=1.7.7
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
+         VERSION=1.7.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:80b0efd5eff98f22dd6fa4107499475d8bb922d3
-        WEB_SITE="http://www.enlightenment.org/"
+      SOURCE_VFY=sha1:184aebaf0b93a814ff055b7f11e7f8a0ca07143a
+        WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130706
+         UPDATED=20130827
            SHORT="scripting langage based on Small"
+
 cat <<EOF
 Embryo implements a C like scripting language used in various parts
-of the E project, namely Edje.  Embryo's scripting language is based
-on CompuPhase's Small language.  Embryo allows scripting capabilities
+of the E project, namely Edje. Embryo's scripting language is based
+on CompuPhase's Small language. Embryo allows scripting capabilities
 in places that otherwise wouldn't support basic programming structures
 such as Edje EDCs.
 EOF

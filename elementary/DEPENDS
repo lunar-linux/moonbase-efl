@@ -1,6 +1,5 @@
-depends ecore
+depends efreet
 depends edje
-depends eio
 depends emotion
 
 optional_depends ethumb "--enable-ethumb" "--disable-ethumb" "for thumbnailing support"

@@ -1,13 +1,14 @@
           MODULE=ecore
-         VERSION=1.7.7
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
+         VERSION=1.7.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:a5baeedf9dcec78b4bf0023d2d6da3fe61ab859b
-        WEB_SITE="http://www.enlightenment.org/"
+      SOURCE_VFY=sha1:733448cb1b6ea6da491f80eca50e586bee304181
+        WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130706
-           SHORT="Core EFL library."
+         UPDATED=20130827
+           SHORT="Core EFL library"
+
 cat <<EOF
 Ecore is the event/X abstraction layer that makes doing selections,
 Xdnd, general X stuff, event loops, timeouts and idle handlers fast,

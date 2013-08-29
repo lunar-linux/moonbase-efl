@@ -1,13 +1,17 @@
 depends eet
-depends eina
-optional_depends pixman "" "--disable-pixman" ""
-optional_depends valgrind "" "--disable-valgrind" ""
-optional_depends %JPEG "" "--disable-image-loader-jpeg" ""
-optional_depends giflib "" "--disable-image-loader-gif" ""
-optional_depends tiff "" "--disable-image-loader-tiff" ""
-optional_depends libpng "" "--disable-image-loader-png" ""
-optional_depends harfbuzz "" "--disable-harfbuzz" ""
-optional_depends freetype2 "" "--disable-freetype" ""
-optional_depends fribidi "" "--disable-fribidi" ""
+
+optional_depends pixman     "" "--disable-pixman" ""
+optional_depends valgrind   "" "--disable-valgrind" ""
+optional_depends %JPEG      "" "--disable-image-loader-jpeg" ""
+optional_depends giflib     "" "--disable-image-loader-gif" ""
+optional_depends tiff       "" "--disable-image-loader-tiff" ""
+optional_depends libpng     "" "--disable-image-loader-png" ""
+optional_depends harfbuzz   "" "--disable-harfbuzz" ""
+optional_depends freetype2  "" "--disable-freetype" ""
+optional_depends fribidi    "" "--disable-fribidi" ""
 optional_depends fontconfig "" "--disable-fontconfig" ""
-optional_depends evas_generic_loaders "--enable-image-loader-generic=static" "--disable-image-loader-generic" "for generic image loading support"
+
+optional_depends evas_generic_loaders \
+                 "--enable-image-loader-generic=static" \
+                 "--disable-image-loader-generic" \
+                 "for generic image loading support"

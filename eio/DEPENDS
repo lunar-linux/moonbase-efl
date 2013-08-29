@@ -1,3 +1,2 @@
 depends ecore
-depends eet
-depends eina
+#depends eet

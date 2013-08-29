@@ -1,7 +1,7 @@
           MODULE=python-ecore
          VERSION=1.7.0
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://download.enlightenment.fr/releases/BINDINGS/python/
+      SOURCE_URL=http://download.enlightenment.org/releases/BINDINGS/python/
       SOURCE_VFY=sha1:70f3e7a98cd43738cff3a9d31f38ac4c80c838c5
         WEB_SITE=http://enlightenment.org/
          ENTERED=20130102

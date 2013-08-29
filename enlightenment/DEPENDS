@@ -4,5 +4,4 @@ depends e_dbus
 depends edje
 depends eeze
 depends eio
-
 depends xcb-util-keysyms

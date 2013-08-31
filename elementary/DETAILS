@@ -1,13 +1,14 @@
           MODULE=elementary
-         VERSION=1.7.7
-          SOURCE=${MODULE}-${VERSION}.tar.bz2
+         VERSION=1.7.8
+          SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:cff6de3f496139cd806575f5c36a05e2b00f64fc
-        WEB_SITE="http://www.enlightenment.org/"
+      SOURCE_VFY=sha1:0271a14cd164927dae7605efffee05dcbcf7ef7b
+        WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130706
+         UPDATED=20130827
            SHORT="Widget set for EFL applications"
+
 cat <<EOF
 Elementary is a widget set. It is a new-style of widget set much more
 canvas object based than anything else. Why not ETK? Why not EWL? Well
@@ -17,5 +18,5 @@ embedded devices - specifically small touchscreens. Unlike GTK+ and
 Qt, 75% of the "widget set" is already embodied in a common core -
 Ecore, Edje, Evas etc. So this fine-grained library splitting means
 all of this is shared, just a new widget "personality" is on top. And
-that is... Elementary, my dear watson. Elementary.
+that is... Elementary, my dear Watson. Elementary.
 EOF

@@ -1,4 +1,3 @@
-depends Python
 depends python-ecore
 depends dbus-python
 depends e_dbus

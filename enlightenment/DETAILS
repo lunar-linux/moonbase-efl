@@ -1,12 +1,15 @@
           MODULE=enlightenment
          VERSION=0.17.4
           SOURCE=$MODULE-$VERSION.tar.bz2
+         SOURCE2=enlightenment-0.17.4-fix_startup_freeze.patch
       SOURCE_URL=http://download.enlightenment.org/releases
+     SOURCE2_URL=$PATCH_URL
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
       SOURCE_VFY=sha1:51fc7c72cf6fac9f869a4d04b335d282fe1444cb
+     SOURCE2_VFY=sha1:85f9b1378ebb7a05ed7f0e8db6982d88a0f46be4
         WEB_SITE=http://www.enlightenment.org
          ENTERED=20120430
-         UPDATED=20130827
+         UPDATED=20130910
            SHORT="The E17 Window Manager"
 
 cat <<EOF

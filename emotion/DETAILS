@@ -1,12 +1,12 @@
           MODULE=emotion
-         VERSION=1.7.8
+         VERSION=1.7.9
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:abae9b3db390e21d2d348109360e5e644bfad838
+      SOURCE_VFY=sha1:9c82e6e725e802480f2beec693cfc801689364a1
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130827
+         UPDATED=20131116
            SHORT="Multimedia support for EFL"
 
 cat <<EOF

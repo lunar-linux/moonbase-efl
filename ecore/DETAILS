@@ -1,12 +1,12 @@
           MODULE=ecore
-         VERSION=1.7.8
+         VERSION=1.7.9
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:733448cb1b6ea6da491f80eca50e586bee304181
+      SOURCE_VFY=sha1:b6dbd2af2b033be62e3ca6f467bee5038b803570
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130827
+         UPDATED=20131116
            SHORT="Core EFL library"
 
 cat <<EOF

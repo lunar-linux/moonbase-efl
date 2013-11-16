@@ -1,12 +1,12 @@
           MODULE=eio
-         VERSION=1.7.8
+         VERSION=1.7.9
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:514880eae6d4a5a48ac67f90227aa5d87abdaeb8
+      SOURCE_VFY=sha1:4133d0967addc654036cd0d79a8d75998c539c73
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130827
+         UPDATED=20131116
            SHORT="efficient filesystem input/output for EFL"
 
 cat <<EOF

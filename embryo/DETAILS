@@ -1,12 +1,12 @@
           MODULE=embryo
-         VERSION=1.7.8
+         VERSION=1.7.9
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/releases/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:184aebaf0b93a814ff055b7f11e7f8a0ca07143a
+      SOURCE_VFY=sha1:cebb6b152b38ed86cb2e91b2395621ed672309c5
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20130827
+         UPDATED=20131116
            SHORT="scripting langage based on Small"
 
 cat <<EOF

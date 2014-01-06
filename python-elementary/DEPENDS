@@ -1,5 +1,0 @@
-depends Python
-depends python-evas
-depends python-ecore
-depends python-edje
-depends elementary

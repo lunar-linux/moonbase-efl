@@ -1,5 +1,0 @@
-depends e_dbus
-depends emotion
-
-#optional_depends epdf "" "--disable-epdf" "For PDF support"
-optional_depends libexif "" "--disable-libexif" "For EXIF support"

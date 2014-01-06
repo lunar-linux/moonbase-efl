@@ -5,7 +5,7 @@
       SOURCE_VFY=sha1:6003519484ba2f50487bc1f6b977564f60bcc1fc
         WEB_SITE=http://enlightenment.org/
          ENTERED=20121213
-         UPDATED=20130331
+         UPDATED=20140105
            SHORT="EFL Terminal"
 
 cat <<EOF

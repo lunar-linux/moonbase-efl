@@ -1,1 +1,2 @@
-optional_depends bullet "" "--disable-physics" "Ignore this..."
+optional_depends bullet "" "--disable-physics" "Enable physics support"
+optional_depends pulseaudio "" "--disable-pulseaudio" "PulseAudio support"

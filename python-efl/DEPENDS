@@ -1,0 +1,3 @@
+depends Python
+depends efl
+depends elementary

@@ -1,7 +1,3 @@
-depends ecore
-depends efreet
-depends e_dbus
-depends edje
-depends eeze
-depends eio
-depends xcb-util-keysyms
+depends efl
+depends evas_generic_loaders
+depends elementary

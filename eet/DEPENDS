@@ -1,5 +1,0 @@
-depends eina
-depends %JPEG
-depends libgcrypt
-
-optional_depends gnutls "" "--disable-gnutls" "SSL support"

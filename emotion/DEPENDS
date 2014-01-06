@@ -1,7 +1,0 @@
-depends edje
-depends eeze
-
-optional_depends "gstreamer-10" \
-                 "--enable-gstreamer" \
-                 "--disable-gstreamer"  \
-                 "for gstreamer based video/audio decoding support"

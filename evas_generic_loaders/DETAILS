@@ -1,12 +1,12 @@
           MODULE=evas_generic_loaders
-         VERSION=1.7.8
+         VERSION=1.8.1
           SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://download.enlightenment.org/releases/
+      SOURCE_URL=http://download.enlightenment.org/rel/libs/evas_generic_loaders/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:bc5f99d53b18c644371349f41064ba597c247c96
+      SOURCE_VFY=sha1:907b204a08c7559beb57a5b4be2cee6cbdecffef
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20130119
-         UPDATED=20130827
+         UPDATED=20140105
            SHORT="Additional generic loaders for Evas"
 
 cat <<EOF

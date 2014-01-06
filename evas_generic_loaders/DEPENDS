@@ -1,4 +1,4 @@
-depends eina
+depends efl
 
 optional_depends gstreamer-10 "--enable-gstreamer" "--disable-gstreamer" "for GStreamer Multimedia support"
 optional_depends librsvg      "--enable-svg"       "--disable-svg"       "for SVG image support"

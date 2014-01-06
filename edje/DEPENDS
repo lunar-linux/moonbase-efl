@@ -1,7 +1,0 @@
-depends ecore
-depends eet
-depends embryo
-depends eio
-depends lua
-depends shared-mime-info
-

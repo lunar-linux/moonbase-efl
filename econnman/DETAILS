@@ -1,11 +1,11 @@
           MODULE=econnman
-         VERSION=1
+         VERSION=1.1
           SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=http://packages.profusion.mobi/$MODULE/
-      SOURCE_VFY=sha1:333f6f8633af4f01d1ddb07ceb5635299d243413
-        WEB_SITE=http://enlightenment.org
+      SOURCE_URL=http://download.enlightenment.org/rel/apps/econnman
+      SOURCE_VFY=sha1:0189769dae9fbf2d675946817f44e6ccee7bda3a
+        WEB_SITE=http://enlightenment.org/
          ENTERED=20130102
-         UPDATED=20130102
+         UPDATED=20140106
            SHORT="EFL connman frontend"
 
 cat <<EOF

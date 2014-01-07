@@ -1,2 +1,6 @@
 unset CXX
-default_build
+default_config &&
+make &&
+prepare_install &&
+unset MAKES &&
+make install

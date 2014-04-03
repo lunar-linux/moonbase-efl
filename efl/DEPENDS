@@ -1,2 +1,11 @@
+# we don't have an easy way to specify the choice between gnutls&gcrypt
+# and openssl atm, so ignore it
+optional_depends openssl "--with-crypto=openssl" "--with-crypto=none" "Crypto support"
+
+optional_depends fribidi "--enable-fribidi" "--disable-fribidi" "Bidirectional text support"
+optional_depends giflib "--enable-image-loader-gif" "--disable-image-loader-gif" "Gif image support"
+
+optional_depends gst-plugins-base "--enable-gstreamer" "--disable-gstreamer" "GStreamer support"
+
 optional_depends bullet "" "--disable-physics" "Enable physics support"
 optional_depends pulseaudio "" "--disable-pulseaudio" "PulseAudio support"

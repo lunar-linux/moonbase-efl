@@ -1,3 +1,5 @@
 depends efl
 depends evas_generic_loaders
 depends elementary
+
+depends xcb-util-keysyms

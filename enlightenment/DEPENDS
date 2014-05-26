@@ -1,3 +1,5 @@
-depends efl
-depends evas_generic_loaders
 depends elementary
+depends hicolor-icon-theme
+depends desktop-file-utils
+depends xcb-util-keysyms
+optional_depends bluez "--enable-bluez4" "--disable-bluez4" "bluetooth support"

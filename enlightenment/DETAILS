@@ -1,12 +1,12 @@
           MODULE=enlightenment
-         VERSION=0.18.3
+         VERSION=0.18.8
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/rel/apps/enlightenment/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:8fb998aa87439b4ad7237116dbc3dbc4fe77e845
+      SOURCE_VFY=sha1:d99f0205f24585c15c7ce30d35f3e69baa7f8fa7
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20140208
+         UPDATED=20140526
            SHORT="The E18 Window Manager"
 
 cat <<EOF

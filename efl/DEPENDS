@@ -1,2 +1,9 @@
+depends luajit
+depends curl
+optional_depends %SSL "" "--with-crypto=none" "Crypto support"
 optional_depends bullet "" "--disable-physics" "Enable physics support"
 optional_depends pulseaudio "" "--disable-pulseaudio" "PulseAudio support"
+optional_depends gst-plugins-base-1.0 "" "--disable-gstreamer1" "gstreamer support"
+optional_depends fribidi "--enable-fribidi" "--disable-fribidi" "bidirectional text support"
+optional_depends harfbuzz "--enable-harfbuzz" "--disable-harfbuzz" "enable complex text shaping"
+optional_depends libwebp "--enable-image-loader-webp" "" "enable WEBP image loader"

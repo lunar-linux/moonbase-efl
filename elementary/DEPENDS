@@ -1,1 +1,2 @@
 depends efl
+depends evas_generic_loaders

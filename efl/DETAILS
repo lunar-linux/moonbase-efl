@@ -1,12 +1,12 @@
           MODULE=efl
-         VERSION=1.10.0
+         VERSION=1.10.1
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/rel/libs/efl/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:86c4342775007b6d3a748cf1b66266a825546b2e
+      SOURCE_VFY=sha1:da407bdfd4aeacc94a20fe3328ac1f43a98a3a7d
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20140105
-         UPDATED=20140526
+         UPDATED=20140615
            SHORT="Core EFL library"
 
 cat <<EOF

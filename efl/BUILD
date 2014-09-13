@@ -1,6 +1,6 @@
 unset CXX
 
-SSL=$(unalias %SSL)
+SSL=$(expand_alias %SSL)
 
 if in_depends $MODULE $SSL; then
   OPTS+=" --with-crypto=$SSL"

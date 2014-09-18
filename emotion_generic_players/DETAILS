@@ -1,12 +1,12 @@
           MODULE=emotion_generic_players
-         VERSION=1.10.0
+         VERSION=1.11.0
           SOURCE=$MODULE-$VERSION.tar.bz2
       SOURCE_URL=http://download.enlightenment.org/rel/libs/emotion_generic_players/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha1:5e8e3cefc7b15ac575fd6d379fae18fd8dd6f2fa
+      SOURCE_VFY=sha256:1531842ddb2eda0a36baffd0998f5f83586c3be1a1dcd88424196961e51dc7a7
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20140105
-         UPDATED=20140526
+         UPDATED=20140918
            SHORT="Additional generic players for emotion"
 
 cat <<EOF

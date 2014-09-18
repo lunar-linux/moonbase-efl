@@ -2,4 +2,4 @@ depends elementary
 depends hicolor-icon-theme
 depends desktop-file-utils
 depends xcb-util-keysyms
-optional_depends bluez "--enable-bluez4" "--disable-bluez4" "bluetooth support"
+optional_depends %BLUEZ "--enable-bluez4" "--disable-bluez4" "bluetooth support"

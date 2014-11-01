@@ -1,11 +1,11 @@
           MODULE=terminology
-         VERSION=0.6.1
+         VERSION=0.7.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://download.enlightenment.org/rel/apps/terminology
-      SOURCE_VFY=sha1:c0f1f5d32abd2928476f168a8f58c5d3d4169f77
+      SOURCE_VFY=sha256:453f49911b090fffc1e5fe695022bd1c51325dde83b8cd3cca22899c604344f4
         WEB_SITE=http://enlightenment.org/
          ENTERED=20121213
-         UPDATED=20140807
+         UPDATED=20141101
            SHORT="EFL Terminal"
 
 cat <<EOF

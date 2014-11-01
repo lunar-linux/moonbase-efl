@@ -1,5 +1,11 @@
 depends luajit
 depends curl
+depends libXrandr
+depends libXcomposite
+depends libXcursor
+depends libXp
+depends libXScrnSaver
+depends %JPEG
 optional_depends %SSL "" "--with-crypto=none" "Crypto support"
 optional_depends bullet "" "--disable-physics" "Enable physics support"
 optional_depends pulseaudio "" "--disable-pulseaudio --enable-i-really-know-what-i-am-doing-and-that-this-will-probably-break-things-and-i-will-fix-them-myself-and-send-patches-aba" "audio support (HIGHLY recommended)"

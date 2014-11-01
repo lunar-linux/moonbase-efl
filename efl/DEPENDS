@@ -7,7 +7,7 @@ depends libXp
 depends libXScrnSaver
 depends %JPEG
 optional_depends %SSL "" "--with-crypto=none" "Crypto support"
-optional_depends bullet "" "--disable-physics" "Enable physics support"
+optional_depends bullet "" "--disable-physics --enable-i-really-know-what-i-am-doing-and-that-this-will-probably-break-things-and-i-will-fix-them-myself-and-send-patches-aba" "Enable physics support (HIGHLY recommended)"
 optional_depends pulseaudio "" "--disable-pulseaudio --enable-i-really-know-what-i-am-doing-and-that-this-will-probably-break-things-and-i-will-fix-them-myself-and-send-patches-aba" "audio support (HIGHLY recommended)"
 optional_depends gst-plugins-base-1.0 "" "--disable-gstreamer1" "gstreamer support"
 optional_depends fribidi "--enable-fribidi" "--disable-fribidi" "bidirectional text support"

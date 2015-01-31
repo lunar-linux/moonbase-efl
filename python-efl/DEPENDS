@@ -2,3 +2,4 @@ depends Python
 depends Cython
 depends efl
 depends elementary
+depends dbus-python

@@ -1,12 +1,12 @@
           MODULE=elementary
-         VERSION=1.12.3
-          SOURCE=$MODULE-$VERSION.tar.bz2
+         VERSION=1.13.0
+          SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://download.enlightenment.org/rel/libs/elementary/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha256:d113b3ecde90b8947fd94cad2be007fa921a0d5349f777f18fa96aee21a47f61
+      SOURCE_VFY=sha256:78ba546d0c5aa22dae6a27d82194c9682a25af4205fe24b620f15d7f5489496d
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20150125
+         UPDATED=20150215
            SHORT="Widget set for EFL applications"
 
 cat <<EOF

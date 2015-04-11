@@ -1,15 +1,12 @@
           MODULE=evas_generic_loaders
-         VERSION=1.13.0
+         VERSION=1.13.2
           SOURCE=$MODULE-$VERSION.tar.xz
-         SOURCE2=$MODULE-poppler31.patch.gz
       SOURCE_URL=http://download.enlightenment.org/rel/libs/evas_generic_loaders/
-     SOURCE2_URL=$PATCH_URL
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha256:390cc4a6e80351d918a53a372e0dac37e0e427c08e957cebcd8c3c686ae74398
-     SOURCE2_VFY=sha256:30028acc6f3ec745d725cbae6255229d461b56874aa60ecec4361c911b660a56
+      SOURCE_VFY=sha256:c928375961b855b50532ce8361f30bbbadc703f5b7862286c65bdfa19792bbfc
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20130119
-         UPDATED=20150215
+         UPDATED=20150411
            SHORT="Additional generic loaders for Evas"
 
 cat <<EOF

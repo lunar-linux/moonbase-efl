@@ -1,11 +1,11 @@
           MODULE=python-efl
-         VERSION=1.15.0
+         VERSION=1.16.0
           SOURCE=$MODULE-$VERSION.tar.gz
       SOURCE_URL=http://download.enlightenment.org/rel/bindings/python
-      SOURCE_VFY=sha256:11e607b465cb66dafe05c66e02d61e09335b370fe9fd2a74d88282b3ee597bcc
+      SOURCE_VFY=sha256:b3df0bf0cc5a64b3602e091f1ea6d2fbb4ab599048ca5345e852d0a740f20ac6
         WEB_SITE=http://enlightenment.org/
          ENTERED=20140106
-         UPDATED=20150822
+         UPDATED=20151121
            SHORT="Python bindings for EFL"
 
 cat <<EOF

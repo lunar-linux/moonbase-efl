@@ -1,7 +1,7 @@
           MODULE=rage
-         VERSION=1.4
-          SOURCE=$MODULE-$VERSION.tar.bz2
-      SOURCE_URL=http://download.enlightenment.org/releases
+         VERSION=0.1.4
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://download.enlightenment.org/rel/apps/rage/
       SOURCE_VFY=sha256:ef55b15f4b90a48e21bc2a7a3c5037aee8ba4d97ad58283efed2849919b24382
         WEB_SITE=http://enlightenment.org/
          ENTERED=20151207

@@ -1,0 +1,4 @@
+default_pre_build &&
+
+# yes, this option got removed, but the change is not yet released
+sedit 's/EOLIAN_GEN)/\0 --eo /' Makefile_Eolian_Helper.am

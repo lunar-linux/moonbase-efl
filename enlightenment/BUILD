@@ -1,2 +1,3 @@
-OPTS+=" --enable-mount-eeze "
+OPTS+=" --enable-mount-eeze"
+
 default_build

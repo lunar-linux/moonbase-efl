@@ -1,12 +1,12 @@
           MODULE=enlightenment
-         VERSION=0.20.2
+         VERSION=0.20.5
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://download.enlightenment.org/rel/apps/enlightenment/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha256:441009a5cbe19861bc1f1404ce4361184ace27208ce429a51c23344c8f9f5d39
+      SOURCE_VFY=sha256:22749584d2fdf62d5a63c64dd9e57a1e318837a48f10fb9cdd2097769aa802d0
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20120430
-         UPDATED=20160106
+         UPDATED=20160205
            SHORT="The E19 Window Manager"
 
 cat <<EOF

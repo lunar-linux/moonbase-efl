@@ -1,2 +1,6 @@
 depends efl
-optional_depends vlc "--with-vlc" "--without-vlc" "enable generic player (VLC)"
+
+optional_depends vlc \
+                 "--with-vlc" \
+                 "--without-vlc" \
+                 "enable generic player (VLC)"

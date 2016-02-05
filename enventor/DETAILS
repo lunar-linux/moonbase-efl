@@ -1,12 +1,13 @@
           MODULE=enventor
-         VERSION=0.4.1
-          SOURCE=${MODULE}-${VERSION}.tar.gz
-      SOURCE_URL=http://download.enlightenment.org/rel/apps/enventor
-      SOURCE_VFY=sha256:68127ba7e5172d23113719f59c6a35d79ec291fa763d72e14d857132b91c78f4
-        WEB_SITE="http://enlightenment.org/"
+         VERSION=0.7.0
+          SOURCE=$MODULE-$VERSION.tar.gz
+      SOURCE_URL=http://download.enlightenment.org/rel/apps/enventor/
+      SOURCE_VFY=sha256:c836c57b0478086880192df95505c60f5877fb46c2921664b9ed66cd59464b38
+        WEB_SITE=http://enlightenment.org/
          ENTERED=20140118
-         UPDATED=20150101
-           SHORT="The dynamic EDC editor to write your layout fast and easy"
+         UPDATED=20160203
+           SHORT="A dynamic EDC editor for Enlightenment"
+
 cat <<EOF
 The dynamic EDC editor to write your layout fast and easy for Enligthenment.
 EOF

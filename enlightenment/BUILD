@@ -1,3 +1,3 @@
-OPTS+=" --enable-mount-eeze"
+OPTS+=" --enable-mount-eeze --disable-rpath"
 
 default_build

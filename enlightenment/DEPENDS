@@ -1,4 +1,4 @@
-depends elementary
+depends efl
 depends hicolor-icon-theme
 depends desktop-file-utils
 depends xcb-util-keysyms

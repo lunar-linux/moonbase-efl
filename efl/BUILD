@@ -8,7 +8,7 @@ OPTS+=" --enable-i-really-know-what-i-am-doing-and-that-this-will-probably-break
 
 SSL=$(expand_alias %SSL) &&
 if in_depends $MODULE $SSL; then
-  OPTS+=" --with-crypto=$SSL"
+  OPTS+=" --with-crypto=${SSL/libressl/openssl}"
 fi &&
 
 default_build

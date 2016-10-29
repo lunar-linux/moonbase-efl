@@ -1,7 +1,0 @@
-depends efl
-
-optional_depends gstreamer  "--enable-gstreamer" "--disable-gstreamer" "for GStreamer Multimedia support"
-optional_depends librsvg    "--enable-svg"       "--disable-svg"       "for SVG image support"
-optional_depends poppler    "--enable-poppler"   "--disable-poppler"   "for PDF support"
-optional_depends libspectre "--enable-spectre"   "--disable-spectre"   "for PS support"
-optional_depends LibRaw     "--enable-raw"       "--disable-raw"       "for RAW support"

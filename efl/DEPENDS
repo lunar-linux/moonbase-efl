@@ -15,7 +15,7 @@ depends tiff
 depends libsndfile
 
 optional_depends %SSL "" "--with-crypto=none" "Crypto support"
-optional_depends bullet "" "--disable-physics" "Enable physics support (HIGHLY recommended)" y
+optional_depends bullet3 "" "--disable-physics" "Enable physics support (HIGHLY recommended)" y
 optional_depends pulseaudio "" "--disable-pulseaudio" "audio support (HIGHLY recommended)" y
 optional_depends gst-plugins-base-1.0 "" "--disable-gstreamer1" "gstreamer support"
 optional_depends fribidi "--enable-fribidi" "--disable-fribidi" "bidirectional text support"

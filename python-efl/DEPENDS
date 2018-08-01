@@ -1,4 +1,4 @@
 depends python2
-depends Cython
+depends cython2
 depends efl
 depends python2-dbus

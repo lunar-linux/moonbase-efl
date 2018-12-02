@@ -1,0 +1,2 @@
+depends efl
+depends python2-dbus

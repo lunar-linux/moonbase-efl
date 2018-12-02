@@ -1,8 +1,2 @@
-OPTS+=" --prefix /usr"
+default_meson_build
 
-meson . build $OPTS &&
-meson configure build &&
-cd build &&
-ninja &&
-prepare_install &&
-ninja install

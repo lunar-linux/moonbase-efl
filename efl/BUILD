@@ -7,14 +7,15 @@ if in_depends $MODULE poppler && ! [[ "$(get_config $DEPENDS_CONFIG/poppler CPPW
   exit 1
 fi
 
-OPTS+=" --enable-systemd" &&
-
 # allow to disable some optdeps
-OPTS+=" --enable-i-really-know-what-i-am-doing-and-that-this-will-probably-break-things-and-i-will-fix-them-myself-and-send-patches-abb" &&
+OPTS+=" --disable-static \
+        --disable-tslib \
+        --enable-fb \
+        --enable-multisense"
 
 SSL=$(expand_alias %SSL) &&
 if in_depends $MODULE $SSL; then
   OPTS+=" --with-crypto=${SSL/libressl/openssl}"
-fi &&
+fi
 
 default_build

@@ -1,0 +1,23 @@
+--- ./src/lib/evas/Evas_GL.h.orig	2018-12-30 11:01:56.602747718 +0200
++++ ./src/lib/evas/Evas_GL.h		2018-12-30 11:19:51.138423496 +0200
+@@ -4272,9 +4272,11 @@
+ 
+ #ifndef GL_ES_VERSION_2_0
+ /* GL types for handling large vertex buffer objects */
+-#include <stddef.h>
++# ifndef GL_VERSION_1_5
++#  include <stddef.h>
+ typedef ptrdiff_t GLintptr;     // Changed khronos_intptr_t
+ typedef ptrdiff_t GLsizeiptr;   // Changed khronos_ssize_t
++# endif
+ #endif
+ 
+ /* Some definitions from GLES 3.0.
+@@ -5529,7 +5531,6 @@
+    /*------- EvasGL / EGL-related functions -------*/
+    /**
+     * @name Evas GL Sync object functions
+-    * @since_tizen 2.3
+     * @since 1.12
+     * @{ */
+ 

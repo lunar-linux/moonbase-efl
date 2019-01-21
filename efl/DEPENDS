@@ -24,4 +24,4 @@ optional_depends librsvg "--enable-librsvg" "--disable-librsvg" "for SVG image s
 optional_depends poppler "--enable-poppler" "--disable-poppler" "for PDF support"
 optional_depends libspectre "--enable-spectre" "--disable-spectre" "for PS support"
 optional_depends LibRaw "--enable-libraw" "--disable-libraw" "for RAW support"
-optional_depends systemd "--enable-systems" "--disable-systemd" "for systemd support"
+optional_depends systemd "--enable-systemd" "--disable-systemd" "for systemd support"

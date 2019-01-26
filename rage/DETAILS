@@ -1,11 +1,11 @@
           MODULE=rage
-         VERSION=0.2.1
-          SOURCE=$MODULE-$VERSION.tar.gz
-      SOURCE_URL=http://download.enlightenment.org/rel/apps/rage/
-      SOURCE_VFY=sha256:24514ab8d6e06f159d4a4eb4a3da80a569785014f2628610f00cdb5561589d76
+         VERSION=0.3.0
+          SOURCE=$MODULE-$VERSION.tar.xz
+      SOURCE_URL=http://download.enlightenment.org/rel/apps/$MODULE/
+      SOURCE_VFY=sha256:1e772370c2199f89f4c34f1968432df4eabf0e4fe4f960649d0b9d27496bdf3d
         WEB_SITE=http://enlightenment.org/
          ENTERED=20151207
-         UPDATED=20170927
+         UPDATED=20180904
            SHORT="Video Player based on EFL"
 
 cat <<EOF

@@ -1,19 +1,26 @@
-depends luajit
 depends curl
-depends libXrandr
-depends libXcomposite
-depends libXcursor
-depends libXp
-depends libXScrnSaver
-depends libXinerama
-depends mesa-lib
-depends %JPEG
+depends luajit
 depends giflib
 depends libpng
 depends tiff
 depends libsndfile
+depends libjpeg-turbo
+depends libinput
+depends libxkbcommon
+depends libdrm
+depends libXp
+depends libXrandr
+depends libXcursor
+depends libXcomposite
+depends libXScrnSaver
+depends libXinerama
+depends mesa-lib
+depends shared-mime-info
 
 optional_depends %SSL "" "--with-crypto=none" "for crypto support"
+optional_depends avahi "" "--disable-avahi" "for Avahi support" n
+optional_depends libuv "--enable-libuv" "--disable-libuv" "for ecore_main_loop build based on libuv" n
+optional_depends lz4 "--enable-liblz4" "--disable-liblz4" "for lz4 system installed support" y
 optional_depends bullet3 "" "--disable-physics" "enable physics support (HIGHLY recommended)" y
 optional_depends pulseaudio "" "--disable-pulseaudio" "for audio support (HIGHLY recommended)" y
 optional_depends gst-plugins-base "--enable-gstreamer1" "--disable-gstreamer1" "for gstreamer support"
@@ -24,4 +31,5 @@ optional_depends librsvg "--enable-librsvg" "--disable-librsvg" "for SVG image s
 optional_depends poppler "--enable-poppler" "--disable-poppler" "for PDF support"
 optional_depends libspectre "--enable-spectre" "--disable-spectre" "for PS support"
 optional_depends LibRaw "--enable-libraw" "--disable-libraw" "for RAW support"
+optional_depends wayland-protocols "--enable-wayland" "--disable-wayland" "for Wayland support" n
 optional_depends systemd "--enable-systemd" "--disable-systemd" "for systemd support"

@@ -12,14 +12,18 @@ fi
 # allow to disable some optdeps
 OPTS+=" --disable-static \
         --disable-tslib \
+        --disable-doc \
         --disable-gstreamer \
         --enable-fb \
         --enable-drm \
+        --enable-egl \
         --enable-elput \
         --enable-pixman \
         --enable-xinput22 \
         --enable-ecore-drm \
-        --enable-multisense"
+        --enable-multisense \
+        --with-opengl=es \
+        --with-tests=none"
 
 SSL=$(expand_alias %SSL) &&
 if in_depends $MODULE $SSL; then

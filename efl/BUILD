@@ -18,13 +18,14 @@ OPTS+=" --disable-static \
         --enable-drm \
         --enable-egl \
         --enable-elput \
-        --enable-gl-drm \
         --enable-pixman \
         --enable-xinput22 \
         --enable-ecore-drm \
         --enable-multisense \
         --with-opengl=es \
         --with-tests=none"
+
+#        --enable-gl-drm \
 
 SSL=$(expand_alias %SSL) &&
 if in_depends $MODULE $SSL; then

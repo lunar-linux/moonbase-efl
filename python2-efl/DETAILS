@@ -1,0 +1,15 @@
+          MODULE=python2-efl
+         VERSION=1.21.0
+          SOURCE=python-efl-$VERSION.tar.xz
+SOURCE_DIRECTORY=$BUILD_DIRECTORY/python-efl-$VERSION
+      SOURCE_URL=http://download.enlightenment.org/rel/bindings/python/
+      SOURCE_VFY=sha256:87e04b345528c173e6bea124e48b742e88ae3207458470062300380bd166a223
+        WEB_SITE=http://enlightenment.org/
+            TYPE=python2
+         ENTERED=20180904
+         UPDATED=20180904
+           SHORT="Python bindings for EFL"
+
+cat <<EOF
+Python bindings for EFL.
+EOF

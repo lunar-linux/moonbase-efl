@@ -1,3 +1,4 @@
+depends python
 depends cython
 depends efl
 depends python-dbus

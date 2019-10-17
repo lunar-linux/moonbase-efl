@@ -10,24 +10,16 @@ if in_depends $MODULE poppler && ! [[ "$(get_config $DEPENDS_CONFIG/poppler CPPW
 fi
 
 # allow to disable some optdeps
-OPTS+=" --disable-static \
-        --disable-tslib \
-        --disable-doc \
-        --disable-gstreamer \
-        --enable-fb \
-        --enable-drm \
-        --enable-egl \
-        --enable-elput \
-        --enable-pixman \
-        --enable-xinput22 \
-        --enable-ecore-drm \
-        --enable-multisense \
-        --with-opengl=es \
-        --with-tests=none"
+OPTS+="--prefix=/usr \
+       -Dfb=true \
+       -Dx11=true \
+       -Ddrm=true \
+       -Dnetwork-backend=connman \
+       -Devas-loaders-disabler=json \
+       -Dbindings= \
+       -Dbuild-examples=false \
+       -Dbuild-tests=false \
+       -Decore-imf-loaders-disabler=xim,ibus,scim"
 
-SSL=$(expand_alias %SSL) &&
-if in_depends $MODULE $SSL; then
-  OPTS+=" --with-crypto=${SSL/libressl/openssl}"
-fi
+default_meson_build
 
-default_build

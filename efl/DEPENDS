@@ -1,10 +1,15 @@
 depends curl
 depends luajit
+depends LibRaw
 depends giflib
 depends libpng
 depends tiff
 depends libsndfile
 depends libjpeg-turbo
+depends libspectre
+depends poppler
+depends libwebp
+depends librsvg
 depends libinput
 depends libxkbcommon
 depends libdrm
@@ -16,20 +21,62 @@ depends libXScrnSaver
 depends libXinerama
 depends mesa-lib
 depends shared-mime-info
+depends meson
 
-optional_depends %SSL "" "--with-crypto=none" "for crypto support"
-optional_depends avahi "" "--disable-avahi" "for Avahi support" n
-optional_depends libuv "--enable-libuv" "--disable-libuv" "for ecore_main_loop build based on libuv" n
-optional_depends lz4 "--enable-liblz4" "--disable-liblz4" "for lz4 system installed support" y
-optional_depends bullet3 "" "--disable-physics" "enable physics support (HIGHLY recommended)" y
-optional_depends pulseaudio "" "--disable-pulseaudio" "for audio support (HIGHLY recommended)" y
-optional_depends gst-plugins-base "--enable-gstreamer1" "--disable-gstreamer1" "for gstreamer support"
-optional_depends fribidi "--enable-fribidi" "--disable-fribidi" "for bidirectional text support"
-optional_depends harfbuzz "--enable-harfbuzz" "--disable-harfbuzz" "enable complex text shaping"
-optional_depends libwebp "--enable-image-loader-webp" "" "enable WEBP image loader"
-optional_depends librsvg "--enable-librsvg" "--disable-librsvg" "for SVG image support"
-optional_depends poppler "--enable-poppler" "--disable-poppler" "for PDF support"
-optional_depends libspectre "--enable-spectre" "--disable-spectre" "for PS support"
-optional_depends LibRaw "--enable-libraw" "--disable-libraw" "for RAW support"
-optional_depends wayland-protocols "--enable-wayland" "--disable-wayland" "for Wayland support"
-optional_depends systemd "--enable-systemd" "--disable-systemd" "for systemd support"
+optional_depends %SSL "" "" "for SSL crypto support"
+
+optional_depends lz4 \
+                 "-Dembeded-lz4=false" \
+		 "-Dembeded-lz4=true" \
+		 "for system lz4 support"
+
+optional_depends fontconfig \
+                 "-Dfontconfig=true" \
+		 "-Dfontconfig=false" \
+		 "for system font database support"
+
+optional_depends pixman \
+                 "-Dpixman=true" \
+		 "-Dpixman=false" \
+		 "for pixman software renderer support"
+
+optional_depends avahi \
+                 "-Davahi=true" \
+		 "-Davahi=false" \
+		 "for Avahi support" n
+
+optional_depends bullet3 \
+                 "-Dphysics=true" \
+		 "-Dphysics=false" \
+		 "enable physics support (HIGHLY recommended)" y
+
+optional_depends pulseaudio \
+                 "-Dpulseaudio=true" \
+		 "-Dpulseaudio=false" \
+		 "for audio support (HIGHLY recommended)" y
+
+optional_depends gst-plugins-base \
+                 "-Dgstreamer=true" \
+		 "-Dgstreamer=false" \
+		 "for gstreamer support"
+
+optional_depends fribidi \
+                 "-Dfribidi=true" \
+		 "-Dfribidi=false" \
+		 "for bidirectional text support"
+
+optional_depends harfbuzz \
+                 "-Dharfbuzz=true" \
+		 "-Dharfbuzz=false" \
+		 "enable complex text shaping"
+
+optional_depends wayland-protocols \
+                 "-Dwl=true" \
+		 "-Dwl=false" \
+		 "for Wayland support"
+
+optional_depends systemd \
+                 "-Dsystemd=true" \
+		 "-Dsystemd=false" \
+		 "for systemd support"
+

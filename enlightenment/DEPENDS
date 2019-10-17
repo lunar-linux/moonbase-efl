@@ -2,25 +2,28 @@ depends efl
 depends hicolor-icon-theme
 depends desktop-file-utils
 depends xcb-util-keysyms
+depends meson
 
 optional_depends acpid "" "" "for power events on laptop lid close"
 
-optional_depends %BLUEZ \
-                 "--enable-bluez4" \
-                 "--disable-bluez4" \
+optional_depends bluez5 \
+                 "-Dbluez5=true" \
+                 "-Dbluez5=false" \
                  "for bluetooth support"
 
 optional_depends connman \
-                 "--enable-connman" \
-                 "--disable-connman" \
+                 "-Dconnman=true" \
+                 "-Dconnman=false" \
                  "for network module"
 
 optional_depends geoip-database \
-                 "--enable-geolocation" \
-                 "--disable-geolocation" \
+                 "-Dgeolocation=true" \
+                 "-Dgeolocation=false" \
                  "for geolocation module"
 
 optional_depends wayland \
-                 "--enable-wayland --enable-xwayland" \
-                 "--disable-wayland" \
+                 "-Dxwayland=true" \
+                 "-Dxwayland=false" \
                  "for wayland support"
+
+

@@ -1,3 +1,3 @@
-OPTS+=" --enable-mount-eeze --disable-rpath"
+OPTS+=" -Dmount-eeze=true"
 
-default_build
+default_meson_build

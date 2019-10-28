@@ -22,4 +22,3 @@ OPTS+="--prefix=/usr \
        -Decore-imf-loaders-disabler=xim,ibus,scim"
 
 default_meson_build
-

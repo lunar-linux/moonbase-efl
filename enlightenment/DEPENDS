@@ -24,6 +24,5 @@ optional_depends geoip-database \
 optional_depends wayland \
                  "-Dxwayland=true" \
                  "-Dxwayland=false" \
-                 "for wayland support"
-
-
+                 "for wayland support" \
+                 "y"

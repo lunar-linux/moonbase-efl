@@ -27,59 +27,59 @@ optional_depends %SSL "" "" "for SSL crypto support"
 
 optional_depends systemd \
                  "-Dsystemd=true" \
-		         "-Dsystemd=false" \
-		         "for systemd support"
+                 "-Dsystemd=false" \
+                 "for systemd support"
 
 optional_depends lz4 \
                  "-Dembeded-lz4=false" \
-        		 "-Dembeded-lz4=true" \
-	        	 "for system lz4 support"
+                 "-Dembeded-lz4=true" \
+                 "for system lz4 support"
 
 optional_depends fontconfig \
                  "-Dfontconfig=true" \
-		         "-Dfontconfig=false" \
-		         "for system font database support"
+                 "-Dfontconfig=false" \
+                 "for system font database support"
 
 optional_depends pixman \
                  "-Dpixman=true" \
-		         "-Dpixman=false" \
-		         "for pixman software renderer support"
+                 "-Dpixman=false" \
+                 "for pixman software renderer support"
 
 optional_depends avahi \
                  "-Davahi=true" \
-		         "-Davahi=false" \
-		         "for Avahi support" \
+                 "-Davahi=false" \
+                 "for Avahi support" \
                  "n"
 
 optional_depends bullet3 \
                  "-Dphysics=true" \
-		         "-Dphysics=false" \
-		         "enable physics support (HIGHLY recommended)" \
+                 "-Dphysics=false" \
+                 "enable physics support (HIGHLY recommended)" \
                  "y"
 
 optional_depends pulseaudio \
                  "-Dpulseaudio=true" \
-		         "-Dpulseaudio=false" \
-		         "for audio support (HIGHLY recommended)" \
+                "-Dpulseaudio=false" \
+                "for audio support (HIGHLY recommended)" \
                 "y"
 
 optional_depends gst-plugins-base \
                  "-Dgstreamer=true" \
-		         "-Dgstreamer=false" \
-		         "for gstreamer support"
+                 "-Dgstreamer=false" \
+                 "for gstreamer support"
 
 optional_depends fribidi \
                  "-Dfribidi=true" \
-		         "-Dfribidi=false" \
-		         "for bidirectional text support"
+                 "-Dfribidi=false" \
+                 "for bidirectional text support"
 
 optional_depends harfbuzz \
                  "-Dharfbuzz=true" \
-		         "-Dharfbuzz=false" \
-		         "enable complex text shaping"
+                 "-Dharfbuzz=false" \
+                 "enable complex text shaping"
 
 optional_depends wayland-protocols \
                  "-Dwl=true" \
-		         "-Dwl=false" \
-		         "for Wayland support" \
+                 "-Dwl=false" \
+                 "for Wayland support" \
                  "y"

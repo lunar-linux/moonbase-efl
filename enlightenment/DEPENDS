@@ -6,7 +6,7 @@ depends meson
 
 optional_depends acpid "" "" "for power events on laptop lid close"
 
-optional_depends bluez5 \
+optional_depends bluez-5 \
                  "-Dbluez5=true" \
                  "-Dbluez5=false" \
                  "for bluetooth support"

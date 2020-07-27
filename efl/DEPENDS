@@ -59,9 +59,9 @@ optional_depends bullet3 \
 
 optional_depends pulseaudio \
                  "-Dpulseaudio=true" \
-                "-Dpulseaudio=false" \
-                "for audio support (HIGHLY recommended)" \
-                "y"
+                 "-Dpulseaudio=false" \
+                 "for audio support (HIGHLY recommended)" \
+                 "y"
 
 optional_depends gst-plugins-base \
                  "-Dgstreamer=true" \

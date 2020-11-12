@@ -15,7 +15,7 @@ OPTS+="--prefix=/usr \
        -Dx11=true \
        -Ddrm=true \
        -Dnetwork-backend=connman \
-       -Devas-loaders-disabler=json \
+       -Devas-loaders-disabler=json,avif \
        -Dbindings= \
        -Dbuild-examples=false \
        -Dbuild-tests=false \

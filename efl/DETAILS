@@ -1,15 +1,15 @@
           MODULE=efl
-         VERSION=1.26.2
+         VERSION=1.26.3
           SOURCE=$MODULE-$VERSION.tar.xz
       SOURCE_URL=http://download.enlightenment.org/rel/libs/$MODULE/
 SOURCE_DIRECTORY=$BUILD_DIRECTORY/$MODULE-$VERSION
-      SOURCE_VFY=sha256:2979cfbc728a1a1f72ad86c2467d861ed91e664d3f17ef03190fb5c5f405301c
+      SOURCE_VFY=sha256:d9f83aa0fd9334f44deeb4e4952dc0e5144683afac786feebce6030951617d15
         WEB_SITE=http://www.enlightenment.org/
          ENTERED=20140105
-         UPDATED=20220209
+         UPDATED=20221212
            SHORT="Core EFL library"
 
-cat <<EOF
+cat << EOF
 This package contains the agglomerated versions of ecore, evas and
 several other EFL libraries that make the foundation of the enlightenment
 desktop.

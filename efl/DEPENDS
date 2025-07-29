@@ -1,5 +1,5 @@
 depends curl
-depends luajit
+depends lua52
 depends LibRaw
 depends giflib
 depends libpng
@@ -31,8 +31,8 @@ optional_depends systemd \
                  "for systemd support"
 
 optional_depends lz4 \
-                 "-Dembeded-lz4=false" \
-                 "-Dembeded-lz4=true" \
+                 "-Dembedded-lz4=false" \
+                 "-Dembedded-lz4=true" \
                  "for system lz4 support"
 
 optional_depends fontconfig \

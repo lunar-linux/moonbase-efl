@@ -2,7 +2,7 @@ depends efl
 depends hicolor-icon-theme
 depends desktop-file-utils
 depends xcb-util-keysyms
-epends meson
+depends meson
 
 optional_depends acpid "" "" "for power events on laptop lid close"
 
